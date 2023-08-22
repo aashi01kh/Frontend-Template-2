@@ -23,9 +23,9 @@ This repository contains the code for a project dashboard built using React and 
 
 1.b **Navigate to the project directory in your terminal:**
 
-    ```sh
+   
     cd project-dashboard
-    ```
+  
 
 2. **Install dependencies for the backend (Node.js, Express, CORS):**
 

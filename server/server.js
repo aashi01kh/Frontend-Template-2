@@ -4,12 +4,14 @@ const path = require('path');
 const cors = require('cors');
 
 app.use(cors());
+const data = require(path)
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Serve the data.json file
 app.get('/api/userdata', (req, res) => {
-  res.sendFile(path.join(__dirname, 'data.json'));
+  // res.sendFile(path.join(__dirname, 'data.json'));
+  res.send(data)
 });
 
 // Start the server

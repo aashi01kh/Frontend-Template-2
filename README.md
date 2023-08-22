@@ -1,6 +1,5 @@
 # Project Dashboard Readme
 
-![Project Dashboard Preview](dashboard_preview.png)
 
 ## Overview
 

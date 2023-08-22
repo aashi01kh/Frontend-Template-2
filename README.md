@@ -69,6 +69,8 @@ This repository contains the code for a project dashboard built using React and 
 ![Screenshot 2](screen2.png)
 *Screenshot 2: Detailed view of project progress.*
 
+![Screenshot 3](Screenshot3.png)
+*Screenshot 2: Detailed view of project progress.*
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:

@@ -1,0 +1,10 @@
+/* App.css */
+@media (max-width: 768px) {
+  .main-page {
+    position: static;
+    width: calc(100% - 40px); /* Adjusted width for spacing */
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 20px; 
+  }
+}

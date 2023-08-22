@@ -1,0 +1,432 @@
+/* Add these styles to Dashboard.css */
+
+.meeting-text2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box2 {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Add position relative for positioning the line */
+  }
+  
+ .box2-content2{
+   
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+ }
+
+  .box2-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .schedule {
+    
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .see-all {
+    cursor: pointer;
+  }
+  
+  .meeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* padding: 20px 20px 20px 0; Adjust padding to remove space on the right */
+    margin-right: 0; /* Remove the margin on the right */
+  }
+  
+  .bullet {
+    width: 5px;
+    height: 100%;
+    background-color: #9BDD7C;
+    margin-right: 10px;
+  }
+  
+  .meeting-text {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bold-text {
+    
+    font-weight: bold;
+  }
+  
+  /* Add spacing between lines */
+  .meeting-text > div:not(:first-child) {
+    margin-top: 5px;
+  }
+  
+  /* Add the green vertical line */
+  .vertical-line {
+    position: absolute;
+    /* top: 0; */
+    left: 0; /* Adjust the position of the line */
+    height: 50%;
+    width: 5px;
+    background-color: #9BDD7C;
+  }
+  
+ .vertical-line1{
+    position: absolute;
+    /* top: 0; */
+    left: 0; /* Adjust the position of the line */
+    height: 50%;
+    width: 5px;
+    background-color: #9BDD7C;
+ }
+
+
+  .icon-container {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  }
+  
+  .icon {
+    font-size: 24px; /* Adjust the icon size as needed */
+    color: #555; /* Adjust the icon color as needed */
+  }
+  
+  .box-text {
+    flex-grow: 1;
+  }
+  
+
+  
+  .box-value {
+    font-size: 28px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+  
+
+
+
+
+  .color-box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Adjust the color-box styles for responsiveness */
+  .color-box {
+    flex-basis: 24%; /* Adjust the width for laptop view */
+    border-radius: 20px;
+    height: 8rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  
+  .color-box.box11 {
+    background-color: rgb(221, 239, 224);
+  }
+  .color-box.box22 {
+    background-color: rgb(244, 236, 221);
+  }
+  .color-box.box3 {
+    background-color: rgb(239, 218, 218);
+  }
+  .color-box.box4 {
+    background-color: rgb(222, 224, 239);
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
+
+
+
+
+
+
+
+  .curve-edge-container {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .curve-edge {
+    background-color: white;
+   
+    padding: 20px;
+  }
+  
+  .chart-content {
+    padding: 10px;
+    height: 388px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0px;
+  }
+  
+  .white-box{
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    /* height: 10px; */
+  }
+
+
+  .nextbox{
+    /* background-color: white; */
+    width: 100%;
+    height: 17rem;
+    margin-top: 20px;
+    display: flex;
+    
+  }
+  .box1{
+    background-color: white;
+    border-radius: 20px;
+    /* width: 50%; */
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjusts space between heading and pie */
+    align-items: center; /* Centers content horizontally */
+    padding: 20px; /* Add padding for space inside the box */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+  }
+  .box2{
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+   
+  }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Add these styles to Dashboard.css */
+
+
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensures heading spans the full width */
+    margin-bottom: 10px; /* Add spacing between heading and pie */
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .span {
+    
+    font-size: 18px;
+    color: gray; /* Add your desired color for the date */
+  }
+  
+  .forpie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensures the pie chart is centered within forpie */
+    flex-grow: 1; /* Allows the pie to expand vertically */
+  }
+  
+  .pie {
+    max-width: 100%; /* Limits the pie's width to fit within the box */
+    max-height: 100%; /* Limits the pie's height to fit within the box */
+  }
+  
+
+.bell-icon{
+    margin-right: 9px;
+}
+
+
+.curve-edge .bold-text{
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .dashboard-left{
+    display: flex;
+    width: 100%;
+  }
+
+  .left-box{
+    width: 50%;
+  }
+
+/* Dashboard.css */
+
+/* Dashboard.css */
+
+/* Dashboard.css */
+
+/* Dashboard.css */
+
+.right-box {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .search-box {
+    height: 37px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-icon {
+    margin: 0 5px;
+  }
+  
+  .text-area {
+    border: none; /* No border when clicking */
+    margin-top: 11px;
+    padding-left: 16px;
+    background-color: white;
+    border-radius: 20px;
+    width: 177px; /* Set the width */
+    flex-grow: 1;
+    text-align: left; /* Align the content to the left */
+    white-space: nowrap; /* Prevent wrapping of text */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow */
+    resize: none; /* Disable text area resizing */
+  }
+  
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 992px) {
+    .color-box-container{
+      flex: 50%;
+    }
+  }
+
+  .forpie{
+    align-items: center;
+    position: absolute;
+  }
+
+  @media screen and (max-width: 1064px) {
+    .nextbox {
+      flex-direction: column;
+    }
+    .box2{
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+    .box1{
+        width: 100%;
+        
+    }
+    .box2-content2{
+        margin-bottom: 26px;
+    }
+    .vertical-line1{
+        height: 72px;
+    }
+    .color-box-container{
+      
+        flex-direction: column;
+    }
+    .color-box{
+        margin-top: 20px;
+
+    }
+    .forpie{
+        position: relative;
+        height: 241px;
+        margin-top: -62px;
+    }
+  }
+
+  @media screen and (max-width: 535px) {
+       div.search-box{
+           display:none;
+       }
+  }
+
+  @media screen and (max-width: 530px) {
+    .curve-edge{
+        height: 400px;
+    }
+  }
